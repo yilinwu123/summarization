@@ -13,14 +13,6 @@ from openai import OpenAI
 # ---------------------------
 
 
-client = OpenAI(
-    api_key="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",
-    base_url="https://openrouter.ai/api/v1",
-)
-
-
-
-
 def chat_completion(system_text: str, user_text: str, *, temperature: float = 0.2, max_tokens: int = 512) -> str:
     """Single call to OpenRouter chat.completions; returns assistant content."""
     resp = client.chat.completions.create(
