@@ -35,11 +35,6 @@ MIN_CLUSTER_SIZE = 2
 # 这里直接按你的结构写
 from openai import OpenAI
 
-client = OpenAI(
-    api_key= "",
-    base_url="https://openrouter.ai/api/v1",
-)
-
 def chat_completion(
     system_text: str,
     user_text: str,
