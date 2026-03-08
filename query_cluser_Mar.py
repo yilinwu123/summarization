@@ -11,8 +11,8 @@ from collections import defaultdict, Counter
 # 0. 配置
 # ============================================================
 
-QMSUM_ROOT = "/Users/yilin/Downloads/QMSum"
-OUTPUT_DIR = "/Users/yilin/Downloads/researchresults"
+QMSUM_ROOT = "QMSum"
+OUTPUT_DIR = "researchresults"
 
 VALID_DOMAINS = {"Academic", "Committee", "Product"}
 
@@ -36,7 +36,7 @@ MIN_CLUSTER_SIZE = 2
 from openai import OpenAI
 
 client = OpenAI(
-    api_key= "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",
+    api_key= "",
     base_url="https://openrouter.ai/api/v1",
 )
 
