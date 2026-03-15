@@ -1,0 +1,300 @@
+{
+  "clusters": [
+    {
+      "cluster_id": 1,
+      "reason": "program design, implementation gaps, women, equity, affected groups",
+      "items": [
+        {
+          "query": "What did Ms. Jenny Kwan mean by saying there was a gap between program making and its implementation?",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "Summarize what was said on the GBA+ analysis?",
+          "meeting_id": "covid_9"
+        },
+        {
+          "query": "Which groups did the members discuss to have been impacted heavily?",
+          "meeting_id": "covid_9"
+        }
+      ],
+      "combined_query": "What gap between policy design and implementation did Jenny Kwan describe in COVID-19 programs, what was discussed about the absence of GBA+ analysis for COVID-19 relief programs, and which groups were said to have been heavily impacted?"
+    },   
+    {
+      "cluster_id": 2,
+      "reason": "law, enforcement, public safety, prosecution, violence",
+      "items": [
+        {
+          "query": "Why did Hon. Bill Blair support banning Iver Johnson?",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "Summarize the discussion about the efficacy of the law.",
+          "meeting_id": "education_13"
+        },
+        {
+          "query": "What was the two-stage test during prosecutions when discussing the efficacy of the law?",
+          "meeting_id": "education_13"
+        }
+      ],
+      "combined_query": "Why did Bill Blair support banning the Iver Johnson firearm, what was discussed about the efficacy of the law, and what was the two-stage test used in prosecutions determine whether a case proceeds?"
+    },
+    {
+      "cluster_id": 3,
+      "reason": "tourism, fishing, oil and gas, sector impacts, recovery",
+      "items": [
+        {
+          "query": "Summarize the discussion about things including fishing and tourism, oil and gas affected by the Covid-19.",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "What was the current situation of the tourism sector and what was the government going to do?",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "What did the government do to help the fishing industry?",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "What did the stress faced by oil and gas?",
+          "meeting_id": "covid_4"
+        }
+      ],
+      "combined_query": "How were the fishing, tourism, and oil and gas sectors affected during COVID-19, what was the situation of the tourism sector, what support was discussed for the fishing industry, and what pressures were described for the oil and gas sector?"
+    },
+    {
+      "cluster_id": 4,
+      "reason": "rights, vulnerable groups, social impact, human rights, inclusion",
+      "items": [
+        {
+          "query": "Which groups did the members discuss to have been impacted heavily?",
+          "meeting_id": "covid_9"
+        },
+        {
+          "query": "Summarize the discussion about Government support for the elderly and for vulnerable people.",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "How was awareness and understanding of human rights embedded in the new curriculum?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "Which groups were discussed as being heavily impacted during COVID-19, what support was described for elderly and vulnerable people, and how was awareness and understanding of human rights embedded in the new curriculum?"
+    },
+    {
+      "cluster_id": 5,
+      "reason": "legislation, divergence, England and Wales, statutory framework, Bill",
+      "items": [
+        {
+          "query": "Summarize the discussion about the divergence between the law in England and Wales.",
+          "meeting_id": "education_13"
+        },
+        {
+          "query": "What were the specific aspects of the framework of the curriculum that would be included in the primary legislation?",
+          "meeting_id": "education_9"
+        },
+        {
+          "query": "What would be added to the legislation?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What was discussed about divergence between the law in England and Wales? In addition, what aspects of the curriculum framework to be included in primary legislation and what would be added to the legislation?"
+    },
+    {
+      "cluster_id": 6,
+      "reason": "guidance, implementation, legal wording, what matters, policy detail",
+      "items": [
+        {
+          "query": "What did Barry Hughes think about draft changes to CPS guidance when talking about the divergence between the law in England and Wales?",
+          "meeting_id": "education_13"
+        },
+        {
+          "query": "What did the meeting discuss about the 'what matters'?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What did Barry Hughes say about draft changes to CPS guidance in the discussion about legal divergence between England and Wales, and what was discussed about the 'what matters' statements?"
+    },
+    {
+      "cluster_id": 7,
+      "reason": "disposals, local frameworks, authorities, quality assurance, enforcement",
+      "items": [
+        {
+          "query": "Summarize the discussion about out-of-court disposals.",
+          "meeting_id": "education_13"
+        },
+        {
+          "query": "What did the meeting discuss about the pros and cons of local authoritative frameworks?",
+          "meeting_id": "education_4"
+        },
+        {
+          "query": "What did Sharon Davies think of the role that local authorities should take in the quality assurance of individual intuition?",
+          "meeting_id": "education_4"
+        }
+      ],
+      "combined_query": "What was discussed about out-of-court disposals, what were the pros and cons of local authoritative frameworks, and what role did Sharon Davies believe local authorities should play in quality assurance of individual tuition?"
+    },
+    {
+      "cluster_id": 8,
+      "reason": "performance, accountability, exclusions, schools, prosecution targets",
+      "items": [
+        {
+          "query": "What did Barry Hughes think about the targets regarding performance measure?",
+          "meeting_id": "education_13"
+        },
+        {
+          "query": "What was considered by David Hopkins as the factor that affected exclusions?",
+          "meeting_id": "education_4"
+        },
+        {
+          "query": "What did the WISERD research suggest about the distinction in schools?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What did Barry Hughes say about performance targets in prosecutions, what factor did David Hopkins believe influenced school exclusions, and what did WISERD research suggest about differences in views within schools?"
+    },
+    {
+      "cluster_id": 9,
+      "reason": "training, staff capability, specialist qualification, professional development",
+      "items": [
+        {
+          "query": "Summarize their opinions on introducing a specialist teacher-training qualification to deliver the Welsh bac.",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "What did Dafydd Evans (chair of ColegauCymru) think of introducing a specialist teacher training qualification?",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "What did Nick Brazil (deputy principal) think of introducing a specialist teacher training qualification?",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "What was the major challenge of training professional staff for special education?",
+          "meeting_id": "education_4"
+        }
+      ],
+      "combined_query": "What opinions were expressed about introducing a specialist teacher-training qualification for delivering the Welsh baccalaureate, What did Dafydd Evans (chair of ColegauCymru) and Nick Brazil (deputy principal) think of introducing a specialist teacher training qualification, and what challenge was identified in training professional staff for special education?"
+    },
+    {
+      "cluster_id": 10,
+      "reason": "learner transitions, employability, reintegration, support, outcomes",
+      "items": [
+        {
+          "query": "Summarize the views about how well the Welsh bac helped to prepare learners for employment.",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "What was the major challenge of the transition of the excluded students?",
+          "meeting_id": "education_4"
+        },
+        {
+          "query": "What was the solution to the major challenge for the transition of the excluded students?",
+          "meeting_id": "education_4"
+        }
+      ],
+      "combined_query": "How well was the Welsh baccalaureate said to prepare learners for employment, what challenge was identified in the transition of excluded students back into education, and what solution was proposed for that transition of the excluded students?"
+    },
+    {
+      "cluster_id": 11,
+      "reason": "recognition, stakeholder understanding, employers, universities, qualification value",
+      "items": [
+        {
+          "query": "What did the group discuss about how much employers understood the meaning of Welsh bac?",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "What did they decide on how to improve employers' understanding of the Welsh bac?",
+          "meeting_id": "education_17"
+        },
+        {
+          "query": "Summarize the views to what extent they believe that universities understood the value of the Welsh bac.",
+          "meeting_id": "education_17"
+        }
+      ],
+      "combined_query": "How much did employers understand the meaning of the Welsh baccalaureate, what actions were proposed to improve employers' understanding of the Welsh bac, and to what extent did participants believe universities understood the value of the Welsh bac?"
+    },
+    {
+      "cluster_id": 12,
+      "reason": "Welsh language, Welsh dimension, resources, curriculum support, continuity",
+      "items": [
+        {
+          "query": "What should be included in the implementation of the Welsh dimension?",
+          "meeting_id": "education_9"
+        },
+        {
+          "query": "What did the meeting talk about the single continuum of learning with regard to the Welsh language?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What should be included in the implementation of the Welsh dimension, and what was discussed about the single continuum of learning regarding the Welsh language?"
+    },
+    {
+      "cluster_id": 13,
+      "reason": "curriculum change, lessons, Scotland, teacher funding, preparation",
+      "items": [
+        {
+          "query": "What did the meeting talk about the model of Scotland?",
+          "meeting_id": "education_9"
+        },
+        {
+          "query": "How would the money for supporting teachers help in the preparation of the implementation?",
+          "meeting_id": "education_9"
+        },
+        {
+          "query": "What was the money like in the professional development preparation?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What did the meeting talk about the model of Scotland, how was funding for supporting teachers described as helping implementation preparation, and what was the money like in the professional development preparation?"
+    },
+    {
+      "cluster_id": 14,
+      "reason": "PRU, funding, staffing, networking, support infrastructure",
+      "items": [
+        {
+          "query": "What did the meeting discuss about the funding issues?",
+          "meeting_id": "education_4"
+        },
+        {
+          "query": "What did the meeting discuss about the networking within the PRU and the transition arrangements?",
+          "meeting_id": "education_4"
+        },
+        {
+          "query": "What did the meeting discuss about issues on the special education and recruitment of professional staff?",
+          "meeting_id": "education_4"
+        }
+      ],
+      "combined_query": "What funding issues were discussed, what networking and transition arrangements within PRUs were mentioned, and what issues were raised about special education and recruiting professional staff?"
+    },
+    {
+      "cluster_id": 15,
+      "reason": "member statements, public priorities, social groups, parliamentary concerns",
+      "items": [
+        {
+          "query": "Which groups did the members discuss to have been impacted heavily?",
+          "meeting_id": "covid_9"
+        },
+        {
+          "query": "Summarize the discussion about petitions fraudulence, tax evasion, violence handling and their supervisory.",
+          "meeting_id": "covid_4"
+        }
+      ],
+      "combined_query": "Which groups were discussed as being heavily impacted, and what discussion occurred regarding fraudulence, tax evasion, violence handling, and supervision?"
+    },
+    {
+      "cluster_id": 16,
+      "reason": "public investment, institutional development, innovation, support programs, reform",
+      "items": [
+        {
+          "query": "Summarize the discussion about Government support for energy resources and tourism and funding in green economy and small businesses.",
+          "meeting_id": "covid_4"
+        },
+        {
+          "query": "What did the meeting discuss about the innovation schools?",
+          "meeting_id": "education_9"
+        }
+      ],
+      "combined_query": "What government support and funding were discussed for energy resources, tourism, the green economy, and small businesses, and what was discussed about the development of innovation schools?"
+    }
+  ]
+}
