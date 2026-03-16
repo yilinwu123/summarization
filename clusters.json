@@ -1,0 +1,653 @@
+[
+  {
+    "cluster_id": "cluster_0",
+    "group_id": "Bmr023_sq_3|Bmr023_sq_5",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "Bmr023_sq_3",
+        "query": "What change has occurred to the segmenter?",
+        "meeting_id": "Bmr023",
+        "answer": "Segmentation for the recogniser has been done by hand which the group consider \"cheating\", instead now they want to use Thilo's automatic segmenter.",
+        "domain": "Academic"
+      },
+      {
+        "query_id": "Bmr023_sq_5",
+        "query": "What change has occurred to the segmenter?",
+        "meeting_id": "Bmr023",
+        "answer": "To improve the performance of Thilo's automatic segmenter, this is going to be retrained and adapted to run with Thilo's posteriors and speaker background models.",
+        "domain": "Academic"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_1",
+    "group_id": "IS1003b_sq_3|IS1003c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "IS1003b_sq_3",
+        "query": "Summarize the discussion about the industrial design of the product.",
+        "meeting_id": "IS1003b",
+        "answer": "The group reached the agreement to design an infrared-based controller because it was cheaper than a laser. Secondly, the industrial designer preferred a wireless remote control as it was easier to manage but the suggestion was doubted by the marketing and the project manager considering the cost and user requirements. Another thing was about the buttons. The marketing advised having less buttons because only ten percent of the buttons were actually in use and people tended to zap a lot.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "IS1003c_sq_3",
+        "query": "Summarize the discussion about product industrial design.",
+        "meeting_id": "IS1003c",
+        "answer": "The discussion about product industrial design covered three aspects —material, alimentation, and chip. The industrial designer suggested using wood instead of plastic to make the controller more fashionable and having buttons with LCD so that people could see the controller in dark. In terms of the alimentation, it would be good to have both the classical battery and solar energy alimentation. Considering that the product was supposed to be easy to use, the industrial designer thought some low level chip would be enough, which was agreed by the group.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_2",
+    "group_id": "TS3004c_sq_3|TS3011a_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011a_sq_0",
+        "query": "Summarize the discussion about remote control functions.",
+        "meeting_id": "TS3011a",
+        "answer": "Industrial Designer proposed that a modern remote control should control a diverse subset of equipment. User Interface agreed and revealed that the function of the remote control is to change the state of the TV, which could be realized by pressing the button.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_3",
+    "group_id": "Bmr014_sq_2|Bmr023_sq_2",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "Bmr014_sq_2",
+        "query": "What’s the current state of transcriptions?",
+        "meeting_id": "Bmr014",
+        "answer": "Approximately 32-35 hours of meeting data have been recorded, roughly 30 hours of which comprise non-digits recordings. The transcribers have begun performing digit extraction (see abstract for Bmr013) and should be finished within a few days. Approximately 11 hours of speech have been transcribed.",
+        "domain": "Academic"
+      },
+      {
+        "query_id": "Bmr023_sq_2",
+        "query": "What was the status of transcription?",
+        "meeting_id": "Bmr023",
+        "answer": "The final english SmartKom demo will be presented to the whole institute once the system is de-bugged and stabilised.",
+        "domain": "Academic"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_4",
+    "group_id": "TS3011a_sq_1|TS3011b_sq_2",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3011a_sq_1",
+        "query": "What did User Interface think about remote control functions?",
+        "meeting_id": "TS3011a",
+        "answer": "User Interface agreed with Industrial Designer and supposed that the remote control could be interoperable. That is to say, it could be a universal remote control that fits every device. He also revealed that the function of the remote control was to change the state of the TV and this could be realized by pressing the button.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011b_sq_2",
+        "query": "What did User Interface think about user interface design of remote control?",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface found two kinds of remote controls: the multi-functional one and the one easy to use. He emphasized on user-friendliness, but considering that the target people were less than forty years old, multi-function should also be taken into account.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_5",
+    "group_id": "TS3011b_sq_0|TS3011c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3011b_sq_0",
+        "query": "Summarize the discussion about user interface design of remote control.",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface introduced a remote control easy to use and a multi-functional one and preferred the former as it was more user-friendly. Industrial Designer agreed and proposed that a stick or round button for volume control and channel selection could be used and also suggested that the ten digits could be substituted by voice recognition.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_0",
+        "query": "Summarize the discussion about remote control style.",
+        "meeting_id": "TS3011c",
+        "answer": "Marketing revealed that the younger target group preferred colourful objects and soft material. Project Manager agreed and added that the remote control should be light and not too slippery. Then Industrial Designer introduced three casing possibilities: uncurved, single-curved and double-curved. Considering that uncurved design could be too dull and double-curved design would make it difficult to use scroll-wheels, the team chose the single-curved design.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_6",
+    "group_id": "ES2004c_sq_1|ES2011d_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2004c_sq_1",
+        "query": "Summarize the discussion about the feedback on the design of the remote control device.",
+        "meeting_id": "ES2004c",
+        "answer": "Market research was done with a hundred subjects and Marketing concluded the most important aspect required in the device is a fancy look and feel. The second and third important aspects are technologically innovative and being easy to use. Fruits and vegetables can be taken into consideration when thinking about design themes as they were the themes of fashion fairs in Paris and Milan. There is also a trend towards a spongy feel to materials.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "ES2011d_sq_0",
+        "query": "Summarize the discussion about detailed design of the remote control.",
+        "meeting_id": "ES2011d",
+        "answer": "There were two main parts in the detailed design. Firstly, the prototype presentation, Industrial Designer presented the design on the wheel, the button, and the base of the remote control. Secondly, Marketing presented eleven points to be evaluated based on the findings in marketing trend reports and company strategy marketing. Besides, the group had a point calculation on each evaluation criterion.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_7",
+    "group_id": "TS3011a_sq_1|TS3011c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3011a_sq_1",
+        "query": "What did User Interface think about remote control functions?",
+        "meeting_id": "TS3011a",
+        "answer": "User Interface agreed with Industrial Designer and supposed that the remote control could be interoperable. That is to say, it could be a universal remote control that fits every device. He also revealed that the function of the remote control was to change the state of the TV and this could be realized by pressing the button.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_3",
+        "query": "What did the group discuss about user interface controls of the remote control?",
+        "meeting_id": "TS3011c",
+        "answer": "Industrial Designer proposed to use scroll-wheels, which could be integrated with buttons. User Interface doubted its practicability and then Project Manager proposed to integrate a scroll-bar on the side to mute the device. As they would not use an LCD display, a regular chip was enough.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_8",
+    "group_id": "TS3011b_sq_2|TS3011c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3011b_sq_2",
+        "query": "What did User Interface think about user interface design of remote control?",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface found two kinds of remote controls: the multi-functional one and the one easy to use. He emphasized on user-friendliness, but considering that the target people were less than forty years old, multi-function should also be taken into account.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_3",
+        "query": "What did the group discuss about user interface controls of the remote control?",
+        "meeting_id": "TS3011c",
+        "answer": "Industrial Designer proposed to use scroll-wheels, which could be integrated with buttons. User Interface doubted its practicability and then Project Manager proposed to integrate a scroll-bar on the side to mute the device. As they would not use an LCD display, a regular chip was enough.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_9",
+    "group_id": "ES2011d_sq_1|TS3011c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_1",
+        "query": "Summarize the discussion about changing an aspect of the remote.",
+        "meeting_id": "ES2011d",
+        "answer": "Project Manager suggested that the group might need to discuss changing an aspect of the remote. According to the previous evaluation, the worst one was material. Thus, the group gave suggestions on the smallish size, smashed or resembled fruit shape, and printed patterns on rubber design. The group also suggested changing batteries, but they ended up agreeing that there were no problems in battery design.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_0",
+        "query": "Summarize the discussion about remote control style.",
+        "meeting_id": "TS3011c",
+        "answer": "Marketing revealed that the younger target group preferred colourful objects and soft material. Project Manager agreed and added that the remote control should be light and not too slippery. Then Industrial Designer introduced three casing possibilities: uncurved, single-curved and double-curved. Considering that uncurved design could be too dull and double-curved design would make it difficult to use scroll-wheels, the team chose the single-curved design.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_10",
+    "group_id": "IS1003b_sq_5|TS3004a_sq_5",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "IS1003b_sq_5",
+        "query": "What did the user interface designer recommend to do when discussing the problem of having less buttons?",
+        "meeting_id": "IS1003b",
+        "answer": "The industrial designer recommended mixing several functions in one button by having a switch menu. For example, the category the functions into several classes and link switch menu to this kind of this category of functions.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3004a_sq_5",
+        "query": "What did the User Interface suggest to do when discussing the button layout?",
+        "meeting_id": "TS3004a",
+        "answer": "When discussing the button layout, the User Interface drew a draft to show how to make the remote control more unique and attractive. He suggested to put several essential and useful buttons together in the same place, and others might be scattered on the remote control, on all of which there would be clear logos. As long as the button layout was user-friendly enough, the User Interface thought it did not really matter much where the buttons would be.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_11",
+    "group_id": "TS3004c_sq_3|TS3011c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_0",
+        "query": "Summarize the discussion about remote control style.",
+        "meeting_id": "TS3011c",
+        "answer": "Marketing revealed that the younger target group preferred colourful objects and soft material. Project Manager agreed and added that the remote control should be light and not too slippery. Then Industrial Designer introduced three casing possibilities: uncurved, single-curved and double-curved. Considering that uncurved design could be too dull and double-curved design would make it difficult to use scroll-wheels, the team chose the single-curved design.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_12",
+    "group_id": "ES2011b_sq_0|TS3011c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011b_sq_0",
+        "query": "What did the group discuss the functional design on the remote control?",
+        "meeting_id": "ES2011b",
+        "answer": "Project Manager stated the meeting topic on function design. Firstly, Marketing concluded a study on user needs, including buttons for channel selection according to the frequency of use and the relevance of each button, and suggested targeting on the nineteen to thirty-five years old age group to design functions. Next, User Interface presented on the technical effect on what functions users need and how to make the best functions for users. Then, Industrial Designer presented the working design, including input a channel or volume setting and output the location function to the television.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_3",
+        "query": "What did the group discuss about user interface controls of the remote control?",
+        "meeting_id": "TS3011c",
+        "answer": "Industrial Designer proposed to use scroll-wheels, which could be integrated with buttons. User Interface doubted its practicability and then Project Manager proposed to integrate a scroll-bar on the side to mute the device. As they would not use an LCD display, a regular chip was enough.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_13",
+    "group_id": "ES2004c_sq_1|TS3011b_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2004c_sq_1",
+        "query": "Summarize the discussion about the feedback on the design of the remote control device.",
+        "meeting_id": "ES2004c",
+        "answer": "Market research was done with a hundred subjects and Marketing concluded the most important aspect required in the device is a fancy look and feel. The second and third important aspects are technologically innovative and being easy to use. Fruits and vegetables can be taken into consideration when thinking about design themes as they were the themes of fashion fairs in Paris and Milan. There is also a trend towards a spongy feel to materials.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011b_sq_0",
+        "query": "Summarize the discussion about user interface design of remote control.",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface introduced a remote control easy to use and a multi-functional one and preferred the former as it was more user-friendly. Industrial Designer agreed and proposed that a stick or round button for volume control and channel selection could be used and also suggested that the ten digits could be substituted by voice recognition.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_14",
+    "group_id": "ES2011d_sq_1|TS3004c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_1",
+        "query": "Summarize the discussion about changing an aspect of the remote.",
+        "meeting_id": "ES2011d",
+        "answer": "Project Manager suggested that the group might need to discuss changing an aspect of the remote. According to the previous evaluation, the worst one was material. Thus, the group gave suggestions on the smallish size, smashed or resembled fruit shape, and printed patterns on rubber design. The group also suggested changing batteries, but they ended up agreeing that there were no problems in battery design.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_15",
+    "group_id": "ES2004c_sq_5|IS1003c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2004c_sq_5",
+        "query": "Summarize the discussion of the design of actual components regarding interface design.",
+        "meeting_id": "ES2004c",
+        "answer": "The team planned to do touch screen and there are two options to choose from, a bare PCB circuit board which could be in different colours and making a connection by the touch of fingers, and anti RSI rubber buttons with a LCD type of screen. Industrial Designer doubted whether a LCD screen is wanted as it would only be in black and white but have not thought out how to distinguish where to press if the bare PCB circuit board is used.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "IS1003c_sq_0",
+        "query": "Summarize the discussion about the user interface design.",
+        "meeting_id": "IS1003c",
+        "answer": "The user interface designer introduced three concepts in the user interface - Google controller, fancy controller, and intelligent controller. The three meant that the product would be simple but powerful, attractive and recognizable, and loaded with speech recognition technology and gesture recognition technology. The first two were approved by the project manager, but the last one was seriously questioned. After a lot of discussions, the group finally decided to mix the Google controller and fancy controller with some simple vocal commands.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_16",
+    "group_id": "ES2004c_sq_1|TS3011c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2004c_sq_1",
+        "query": "Summarize the discussion about the feedback on the design of the remote control device.",
+        "meeting_id": "ES2004c",
+        "answer": "Market research was done with a hundred subjects and Marketing concluded the most important aspect required in the device is a fancy look and feel. The second and third important aspects are technologically innovative and being easy to use. Fruits and vegetables can be taken into consideration when thinking about design themes as they were the themes of fashion fairs in Paris and Milan. There is also a trend towards a spongy feel to materials.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_0",
+        "query": "Summarize the discussion about remote control style.",
+        "meeting_id": "TS3011c",
+        "answer": "Marketing revealed that the younger target group preferred colourful objects and soft material. Project Manager agreed and added that the remote control should be light and not too slippery. Then Industrial Designer introduced three casing possibilities: uncurved, single-curved and double-curved. Considering that uncurved design could be too dull and double-curved design would make it difficult to use scroll-wheels, the team chose the single-curved design.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_17",
+    "group_id": "ES2011d_sq_0|TS3011c_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_0",
+        "query": "Summarize the discussion about detailed design of the remote control.",
+        "meeting_id": "ES2011d",
+        "answer": "There were two main parts in the detailed design. Firstly, the prototype presentation, Industrial Designer presented the design on the wheel, the button, and the base of the remote control. Secondly, Marketing presented eleven points to be evaluated based on the findings in marketing trend reports and company strategy marketing. Besides, the group had a point calculation on each evaluation criterion.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_0",
+        "query": "Summarize the discussion about remote control style.",
+        "meeting_id": "TS3011c",
+        "answer": "Marketing revealed that the younger target group preferred colourful objects and soft material. Project Manager agreed and added that the remote control should be light and not too slippery. Then Industrial Designer introduced three casing possibilities: uncurved, single-curved and double-curved. Considering that uncurved design could be too dull and double-curved design would make it difficult to use scroll-wheels, the team chose the single-curved design.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_18",
+    "group_id": "Bmr006_sq_3|Bmr014_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "Bmr006_sq_3",
+        "query": "What did the group say on portable equipment?",
+        "meeting_id": "Bmr006",
+        "answer": "The group wanted to introduce portable equipment so as to get more meetings from different groups. However, this was challenged by the complexity of setting up the recording equipment.",
+        "domain": "Academic"
+      },
+      {
+        "query_id": "Bmr014_sq_0",
+        "query": "What was said about the equipment?",
+        "meeting_id": "Bmr014",
+        "answer": "The group discussed recording equipment issues, including the purchase of two additional headsets and the prospect of getting a new base station and a set of wireless microphones to replace those wired microphones currently in use.",
+        "domain": "Academic"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_19",
+    "group_id": "ES2011b_sq_0|TS3011c_sq_1",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011b_sq_0",
+        "query": "What did the group discuss the functional design on the remote control?",
+        "meeting_id": "ES2011b",
+        "answer": "Project Manager stated the meeting topic on function design. Firstly, Marketing concluded a study on user needs, including buttons for channel selection according to the frequency of use and the relevance of each button, and suggested targeting on the nineteen to thirty-five years old age group to design functions. Next, User Interface presented on the technical effect on what functions users need and how to make the best functions for users. Then, Industrial Designer presented the working design, including input a channel or volume setting and output the location function to the television.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_1",
+        "query": "What material did the team decide to use in the discussion of remote control style?",
+        "meeting_id": "TS3011c",
+        "answer": "Industrial Designer supposed that natural feeling could be a factor. Marketing agreed and revealed that the younger target group preferred soft material but not necessarily a real sponge. Then User Interface proposed to use rubber, which was agreed by the whole team.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_20",
+    "group_id": "IS1003a_sq_0|IS1003d_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "IS1003a_sq_0",
+        "query": "Summarize the discussion about the product features.",
+        "meeting_id": "IS1003a",
+        "answer": "The remote control had to be original, trendy, easy to use, international and not too expensive.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "IS1003d_sq_3",
+        "query": "Summarize the discussion about product evaluation.",
+        "meeting_id": "IS1003d",
+        "answer": "The marketing suggested measuring how good the design was instead of just talking about it so the group started to judge the design in three aspects on a scale of one to seven, one being true and seven being false. The criterion was how fancy, technologically innovative, and easy-to-use the remote control was and it got three, two, and four in separate aspects, which meant it was acceptable.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_21",
+    "group_id": "ES2011d_sq_0|TS3011b_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_0",
+        "query": "Summarize the discussion about detailed design of the remote control.",
+        "meeting_id": "ES2011d",
+        "answer": "There were two main parts in the detailed design. Firstly, the prototype presentation, Industrial Designer presented the design on the wheel, the button, and the base of the remote control. Secondly, Marketing presented eleven points to be evaluated based on the findings in marketing trend reports and company strategy marketing. Besides, the group had a point calculation on each evaluation criterion.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011b_sq_0",
+        "query": "Summarize the discussion about user interface design of remote control.",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface introduced a remote control easy to use and a multi-functional one and preferred the former as it was more user-friendly. Industrial Designer agreed and proposed that a stick or round button for volume control and channel selection could be used and also suggested that the ten digits could be substituted by voice recognition.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_22",
+    "group_id": "IS1003a_sq_4|IS1003a_sq_5",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "IS1003a_sq_4",
+        "query": "What was the industrial designer's opinion about the job of user interface designer when discussing the work division?",
+        "meeting_id": "IS1003a",
+        "answer": "Industrial designer thought user interface designer's job was to focus on the relation between the users and the remote control and decide how the object looks – for example, where the button would be.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "IS1003a_sq_5",
+        "query": "What was the conclusion of the discussion about the difference between the industrial designer and user interface designer?",
+        "meeting_id": "IS1003a",
+        "answer": "Industrial Designer would design the functions and figure out the industrial way to implement it while the user interface designer's job was to decide how the object looked. In short, the two were like the inside and the outside.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_23",
+    "group_id": "TS3004c_sq_3|TS3011d_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011d_sq_0",
+        "query": "Summarize the discussion about evaluation criteria of remote control.",
+        "meeting_id": "TS3011d",
+        "answer": "The group thought the remote control should be fancy, innovative, easy to use, easy to find and spongy and evaluated the prototype with these criteria. Although they had brilliant ideas and designed a best remote control within their capacity, they just designed a product of high quality but low acceptance.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_24",
+    "group_id": "ES2011d_sq_1|TS3011a_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_1",
+        "query": "Summarize the discussion about changing an aspect of the remote.",
+        "meeting_id": "ES2011d",
+        "answer": "Project Manager suggested that the group might need to discuss changing an aspect of the remote. According to the previous evaluation, the worst one was material. Thus, the group gave suggestions on the smallish size, smashed or resembled fruit shape, and printed patterns on rubber design. The group also suggested changing batteries, but they ended up agreeing that there were no problems in battery design.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011a_sq_0",
+        "query": "Summarize the discussion about remote control functions.",
+        "meeting_id": "TS3011a",
+        "answer": "Industrial Designer proposed that a modern remote control should control a diverse subset of equipment. User Interface agreed and revealed that the function of the remote control is to change the state of the TV, which could be realized by pressing the button.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_25",
+    "group_id": "education_4_sq_4|education_4_sq_5",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "education_4_sq_4",
+        "query": "What was the major challenge of the transition of the excluded students?",
+        "meeting_id": "education_4",
+        "answer": "The students coming to the end of their statutory education were facing the biggest challenge, for it would be far more difficult for them to go back into the mainstream education process when they turned 15 or 16, not to mention the transition into further education, such as colleges.",
+        "domain": "Committee"
+      },
+      {
+        "query_id": "education_4_sq_5",
+        "query": "What was the solution to the major challenge for the transition of the excluded students?",
+        "meeting_id": "education_4",
+        "answer": "Sharon Davies recommended the team-around-the-family approach to ensure what was needed for learners to go back into school, as well as what the school could provide. She pointed out the importance of the whole package of support, which not only surrounded the learners but also their families. In addition, she gave an example of the PRU in Oxford who built the partnership between the school and the PRU student to demonstrate the responsibility of schools and the significance of school participation.",
+        "domain": "Committee"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_26",
+    "group_id": "ES2011d_sq_0|TS3004c_sq_3",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011d_sq_0",
+        "query": "Summarize the discussion about detailed design of the remote control.",
+        "meeting_id": "ES2011d",
+        "answer": "There were two main parts in the detailed design. Firstly, the prototype presentation, Industrial Designer presented the design on the wheel, the button, and the base of the remote control. Secondly, Marketing presented eleven points to be evaluated based on the findings in marketing trend reports and company strategy marketing. Besides, the group had a point calculation on each evaluation criterion.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_27",
+    "group_id": "TS3004a_sq_0|TS3011c_sq_1",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004a_sq_0",
+        "query": "What did the group talk about the conceptual design of the remote control, including the functions and some possible advanced techniques?",
+        "meeting_id": "TS3004a",
+        "answer": "In order to make a satisfying profit, the group had to set their price at 25 euros, which was relatively high. For fear that the higher price would lead to fewer consumers, they decided to make it a universal remote control, being able to function on different TVs. The group also planned to add a touchscreen onto the remote control and even include some games for children. What’s more, they paid some attention to the energy source, whether it should be a rechargeable one or just use normal batteries.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011c_sq_1",
+        "query": "What material did the team decide to use in the discussion of remote control style?",
+        "meeting_id": "TS3011c",
+        "answer": "Industrial Designer supposed that natural feeling could be a factor. Marketing agreed and revealed that the younger target group preferred soft material but not necessarily a real sponge. Then User Interface proposed to use rubber, which was agreed by the whole team.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_28",
+    "group_id": "TS3004a_sq_3|TS3011a_sq_2",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004a_sq_3",
+        "query": "What did Industrial Design suggest to do when discussing the conceptual design of the remote control?",
+        "meeting_id": "TS3004a",
+        "answer": "When discussing the conceptual design of the remote control, the group noticed that the energy source was also a problem worth concern. The Industrial Design proposed to make it rechargeable at first, but because of their limited budget, he had to change his idea. The Industrial Design then put forward to setting a station at home or perhaps just using normal batteries to run the remote control, both of which would be feasible.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011a_sq_2",
+        "query": "What did Industrial Designer think about remote control functions?",
+        "meeting_id": "TS3011a",
+        "answer": "Industrial Designer believed that a modern remote control should control a diverse subset of equipment. That means, one remote control should control one or more pieces of equipment.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_29",
+    "group_id": "ES2011b_sq_0|TS3004a_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "ES2011b_sq_0",
+        "query": "What did the group discuss the functional design on the remote control?",
+        "meeting_id": "ES2011b",
+        "answer": "Project Manager stated the meeting topic on function design. Firstly, Marketing concluded a study on user needs, including buttons for channel selection according to the frequency of use and the relevance of each button, and suggested targeting on the nineteen to thirty-five years old age group to design functions. Next, User Interface presented on the technical effect on what functions users need and how to make the best functions for users. Then, Industrial Designer presented the working design, including input a channel or volume setting and output the location function to the television.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3004a_sq_0",
+        "query": "What did the group talk about the conceptual design of the remote control, including the functions and some possible advanced techniques?",
+        "meeting_id": "TS3004a",
+        "answer": "In order to make a satisfying profit, the group had to set their price at 25 euros, which was relatively high. For fear that the higher price would lead to fewer consumers, they decided to make it a universal remote control, being able to function on different TVs. The group also planned to add a touchscreen onto the remote control and even include some games for children. What’s more, they paid some attention to the energy source, whether it should be a rechargeable one or just use normal batteries.",
+        "domain": "Product"
+      }
+    ]
+  },
+  {
+    "cluster_id": "cluster_30",
+    "group_id": "TS3004c_sq_3|TS3011b_sq_0",
+    "size": 2,
+    "queries": [
+      {
+        "query_id": "TS3004c_sq_3",
+        "query": "Summarize the discussion about remote control features.",
+        "meeting_id": "TS3004c",
+        "answer": "The group decided to have the normal batteries, the scroll wheel with rubber buttons together with back-lights, the beeping of the home station, the round shape as well as the speech recognition with an advanced chip. And they would skip the LCD because they would need the most expensive chip if they used an LCD.",
+        "domain": "Product"
+      },
+      {
+        "query_id": "TS3011b_sq_0",
+        "query": "Summarize the discussion about user interface design of remote control.",
+        "meeting_id": "TS3011b",
+        "answer": "User Interface introduced a remote control easy to use and a multi-functional one and preferred the former as it was more user-friendly. Industrial Designer agreed and proposed that a stick or round button for volume control and channel selection could be used and also suggested that the ten digits could be substituted by voice recognition.",
+        "domain": "Product"
+      }
+    ]
+  }
+]
