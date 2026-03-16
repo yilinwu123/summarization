@@ -60,6 +60,12 @@ USER_TEMPLATE = """
 Cluster ID:
 {cluster_id}
 
+Group ID:
+{group_id}
+
+Cluster Size:
+{size}
+
 Cluster Items:
 {cluster_items}
 
@@ -103,51 +109,49 @@ def load_clusters(path: str) -> List[Dict[str, Any]]:
 
 def normalize_cluster(cluster: Dict[str, Any], idx: int) -> Dict[str, Any]:
     """
-    Normalize different possible cluster formats into:
+    Normalize cluster into:
     {
         "cluster_id": ...,
+        "group_id": ...,
+        "size": ...,
         "items": [
             {
                 "query_id": ...,
                 "query": ...,
+                "meeting_id": ...,
                 "answer": ...,
-                "meeting_transcript": ...
+                "domain": ...,
+                "meeting_transcripts": ...
             },
             ...
         ]
     }
     """
     cluster_id = cluster.get("cluster_id", f"cluster_{idx}")
+    group_id = cluster.get("group_id", "")
+    size = cluster.get("size", 0)
 
-    items = None
-    for key in ["items", "queries", "examples", "members"]:
-        if key in cluster:
-            items = cluster[key]
-            break
-
+    items = cluster.get("queries", None)
     if items is None:
-        raise ValueError(
-            f"Cluster {cluster_id} missing one of fields: items / queries / examples / members"
-        )
+        raise ValueError(f"Cluster {cluster_id} missing 'queries' field.")
 
     normalized_items = []
     for j, x in enumerate(items):
-        query_id = x.get("query_id", x.get("id", f"{cluster_id}_q{j}"))
-        query = x.get("query", "")
-        answer = x.get("answer", x.get("gold_answer", ""))
-        transcript = x.get("meeting_transcript", x.get("transcript", x.get("document", "")))
-
         normalized_items.append(
             {
-                "query_id": query_id,
-                "query": query,
-                "answer": answer,
-                "meeting_transcript": transcript,
+                "query_id": x.get("query_id", f"{cluster_id}_q{j}"),
+                "query": x.get("query", ""),
+                "meeting_id": x.get("meeting_id", ""),
+                "answer": x.get("answer", ""),
+                "domain": x.get("domain", ""),
+                "meeting_transcripts": x.get("meeting_transcripts", ""),
             }
         )
 
     return {
         "cluster_id": cluster_id,
+        "group_id": group_id,
+        "size": size if size else len(normalized_items),
         "items": normalized_items,
     }
 
@@ -157,6 +161,9 @@ def build_cluster_text(cluster: Dict[str, Any]) -> str:
     for item in cluster["items"]:
         block = f"""
 [Query ID] {item["query_id"]}
+[Meeting ID] {item["meeting_id"]}
+[Domain] {item["domain"]}
+
 [Query]
 {item["query"]}
 
@@ -164,7 +171,7 @@ def build_cluster_text(cluster: Dict[str, Any]) -> str:
 {item["answer"]}
 
 [Own Meeting Transcript]
-{item["meeting_transcript"]}
+{item["meeting_transcripts"]}
 """.strip()
         parts.append(block)
 
@@ -176,7 +183,7 @@ def safe_parse_json(text: str) -> Dict[str, Any]:
 
     if text.startswith("```"):
         lines = text.splitlines()
-        if lines[0].startswith("```"):
+        if lines and lines[0].startswith("```"):
             lines = lines[1:]
         if lines and lines[-1].strip() == "```":
             lines = lines[:-1]
@@ -191,6 +198,8 @@ def judge_one_cluster(cluster: Dict[str, Any]) -> Dict[str, Any]:
     response = chain.invoke(
         {
             "cluster_id": cluster["cluster_id"],
+            "group_id": cluster["group_id"],
+            "size": cluster["size"],
             "cluster_items": cluster_items_text,
         }
     )
@@ -198,7 +207,6 @@ def judge_one_cluster(cluster: Dict[str, Any]) -> Dict[str, Any]:
     raw_text = response.content
     result = safe_parse_json(raw_text)
 
-    # minimal post-check / cleanup
     result.setdefault("cluster_id", cluster["cluster_id"])
     result.setdefault("rule1_pass", False)
     result.setdefault("rule2_pass", False)
@@ -222,6 +230,7 @@ def main():
                 f.write(json.dumps(result, ensure_ascii=False) + "\n")
                 print(
                     f"[OK] {i}: {cluster['cluster_id']} | "
+                    f"group_id={cluster['group_id']} | "
                     f"overall_pass={result['overall_pass']}"
                 )
             except Exception as e:
