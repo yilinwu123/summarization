@@ -1,0 +1,2112 @@
+[
+  {
+    "user_id": "u_00000",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00001",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00002",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00003",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0545,
+        "severity": 0.76
+      }
+    }
+  },
+  {
+    "user_id": "u_00004",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.5047,
+        "severity": 0.704
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0973,
+        "severity": 0.974
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.1798,
+        "severity": 0.73
+      }
+    }
+  },
+  {
+    "user_id": "u_00005",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.4582,
+        "severity": 0.87
+      }
+    }
+  },
+  {
+    "user_id": "u_00006",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00007",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.474,
+        "severity": 0.866
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.6434,
+        "severity": 0.764
+      }
+    }
+  },
+  {
+    "user_id": "u_00008",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.1792,
+        "severity": 0.971
+      }
+    }
+  },
+  {
+    "user_id": "u_00009",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0708,
+        "severity": 0.715
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1773,
+        "severity": 0.911
+      }
+    }
+  },
+  {
+    "user_id": "u_00010",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00011",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.194,
+        "severity": 0.907
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0782,
+        "severity": 0.726
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.1311,
+        "severity": 0.905
+      }
+    }
+  },
+  {
+    "user_id": "u_00012",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.4362,
+        "severity": 0.898
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0697,
+        "severity": 0.87
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.2548,
+        "severity": 0.908
+      }
+    }
+  },
+  {
+    "user_id": "u_00013",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0718,
+        "severity": 0.893
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.2041,
+        "severity": 0.971
+      }
+    }
+  },
+  {
+    "user_id": "u_00014",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00015",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.498,
+        "severity": 0.78
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.2707,
+        "severity": 0.909
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0551,
+        "severity": 0.836
+      }
+    }
+  },
+  {
+    "user_id": "u_00016",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.081,
+        "severity": 0.996
+      },
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.266,
+        "severity": 0.818
+      }
+    }
+  },
+  {
+    "user_id": "u_00017",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00018",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.3792,
+        "severity": 0.985
+      }
+    }
+  },
+  {
+    "user_id": "u_00019",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.4864,
+        "severity": 0.879
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0803,
+        "severity": 0.761
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.1296,
+        "severity": 0.872
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0685,
+        "severity": 0.971
+      }
+    }
+  },
+  {
+    "user_id": "u_00020",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.2222,
+        "severity": 0.886
+      }
+    }
+  },
+  {
+    "user_id": "u_00021",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.4942,
+        "severity": 0.846
+      }
+    }
+  },
+  {
+    "user_id": "u_00022",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0189,
+        "severity": 0.304
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.1164,
+        "severity": 0.431
+      }
+    }
+  },
+  {
+    "user_id": "u_00023",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00024",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.255,
+        "severity": 0.934
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 0.0587,
+        "severity": 0.703
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0582,
+        "severity": 0.896
+      }
+    }
+  },
+  {
+    "user_id": "u_00025",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00026",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00027",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.2331,
+        "severity": 0.88
+      }
+    }
+  },
+  {
+    "user_id": "u_00028",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00029",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00030",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0688,
+        "severity": 0.863
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.2791,
+        "severity": 0.929
+      }
+    }
+  },
+  {
+    "user_id": "u_00031",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00032",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.3796,
+        "severity": 0.873
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0948,
+        "severity": 0.894
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.5887,
+        "severity": 0.709
+      }
+    }
+  },
+  {
+    "user_id": "u_00033",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.0702,
+        "severity": 0.988
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0692,
+        "severity": 0.987
+      }
+    }
+  },
+  {
+    "user_id": "u_00034",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00035",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.4577,
+        "severity": 0.963
+      }
+    }
+  },
+  {
+    "user_id": "u_00036",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0842,
+        "severity": 0.864
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1292,
+        "severity": 0.71
+      }
+    }
+  },
+  {
+    "user_id": "u_00037",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00038",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0776,
+        "severity": 0.815
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.1317,
+        "severity": 0.816
+      }
+    }
+  },
+  {
+    "user_id": "u_00039",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.072,
+        "severity": 0.737
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.5639,
+        "severity": 0.852
+      }
+    }
+  },
+  {
+    "user_id": "u_00040",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00041",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 9,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0826,
+        "severity": 0.902
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.0769,
+        "severity": 0.703
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.2284,
+        "severity": 0.997
+      }
+    }
+  },
+  {
+    "user_id": "u_00042",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.069,
+        "severity": 0.45
+      }
+    }
+  },
+  {
+    "user_id": "u_00043",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 0.0953,
+        "severity": 0.996
+      }
+    }
+  },
+  {
+    "user_id": "u_00044",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00045",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00046",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.189,
+        "severity": 0.926
+      }
+    }
+  },
+  {
+    "user_id": "u_00047",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.1738,
+        "severity": 0.893
+      },
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 2.1381,
+        "severity": 0.744
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.5671,
+        "severity": 0.9
+      }
+    }
+  },
+  {
+    "user_id": "u_00048",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0243,
+        "severity": 0.347
+      },
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.8536,
+        "severity": 0.397
+      }
+    }
+  },
+  {
+    "user_id": "u_00049",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00050",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0281,
+        "severity": 0.386
+      }
+    }
+  },
+  {
+    "user_id": "u_00051",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0615,
+        "severity": 0.793
+      }
+    }
+  },
+  {
+    "user_id": "u_00052",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.1255,
+        "severity": 0.959
+      }
+    }
+  },
+  {
+    "user_id": "u_00053",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.0726,
+        "severity": 0.436
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0325,
+        "severity": 0.37
+      }
+    }
+  },
+  {
+    "user_id": "u_00054",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 0.0619,
+        "severity": 0.984
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0811,
+        "severity": 0.888
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.3989,
+        "severity": 0.964
+      }
+    }
+  },
+  {
+    "user_id": "u_00055",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0487,
+        "severity": 0.755
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1822,
+        "severity": 0.824
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.5358,
+        "severity": 0.845
+      }
+    }
+  },
+  {
+    "user_id": "u_00056",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.5863,
+        "severity": 0.787
+      }
+    }
+  },
+  {
+    "user_id": "u_00057",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00058",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0701,
+        "severity": 0.939
+      }
+    }
+  },
+  {
+    "user_id": "u_00059",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 10,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.3695,
+        "severity": 0.883
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.066,
+        "severity": 0.73
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.1797,
+        "severity": 0.888
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0582,
+        "severity": 0.737
+      }
+    }
+  },
+  {
+    "user_id": "u_00060",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0331,
+        "severity": 0.414
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.7453,
+        "severity": 0.475
+      }
+    }
+  },
+  {
+    "user_id": "u_00061",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.1045,
+        "severity": 0.352
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.771,
+        "severity": 0.442
+      }
+    }
+  },
+  {
+    "user_id": "u_00062",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00063",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0631,
+        "severity": 0.968
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1436,
+        "severity": 0.829
+      }
+    }
+  },
+  {
+    "user_id": "u_00064",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0747,
+        "severity": 0.852
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1626,
+        "severity": 0.891
+      }
+    }
+  },
+  {
+    "user_id": "u_00065",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00066",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 10,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.1267,
+        "severity": 0.861
+      }
+    }
+  },
+  {
+    "user_id": "u_00067",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.371,
+        "severity": 0.885
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 0.0906,
+        "severity": 0.934
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0928,
+        "severity": 0.96
+      }
+    }
+  },
+  {
+    "user_id": "u_00068",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.544,
+        "severity": 0.762
+      }
+    }
+  },
+  {
+    "user_id": "u_00069",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.5834,
+        "severity": 0.737
+      }
+    }
+  },
+  {
+    "user_id": "u_00070",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00071",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0913,
+        "severity": 0.921
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.1454,
+        "severity": 0.875
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.5823,
+        "severity": 0.889
+      },
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.3206,
+        "severity": 0.896
+      }
+    }
+  },
+  {
+    "user_id": "u_00072",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00073",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00074",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.5294,
+        "severity": 0.8
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0785,
+        "severity": 0.946
+      }
+    }
+  },
+  {
+    "user_id": "u_00075",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 9,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.1169,
+        "severity": 0.987
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0734,
+        "severity": 0.989
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.1348,
+        "severity": 0.868
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.4723,
+        "severity": 0.969
+      }
+    }
+  },
+  {
+    "user_id": "u_00076",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00077",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.6181,
+        "severity": 0.785
+      }
+    }
+  },
+  {
+    "user_id": "u_00078",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.5836,
+        "severity": 0.842
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 0.077,
+        "severity": 0.781
+      }
+    }
+  },
+  {
+    "user_id": "u_00079",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.1719,
+        "severity": 0.967
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.079,
+        "severity": 0.74
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.1436,
+        "severity": 0.709
+      }
+    }
+  },
+  {
+    "user_id": "u_00080",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.5494,
+        "severity": 0.71
+      }
+    }
+  },
+  {
+    "user_id": "u_00081",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0657,
+        "severity": 0.856
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.2217,
+        "severity": 0.817
+      }
+    }
+  },
+  {
+    "user_id": "u_00082",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.4063,
+        "severity": 0.896
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 0.0582,
+        "severity": 0.924
+      }
+    }
+  },
+  {
+    "user_id": "u_00083",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 2.684,
+        "severity": 0.426
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0769,
+        "severity": 0.432
+      }
+    }
+  },
+  {
+    "user_id": "u_00084",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0694,
+        "severity": 0.778
+      }
+    }
+  },
+  {
+    "user_id": "u_00085",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0686,
+        "severity": 0.82
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.2185,
+        "severity": 0.999
+      },
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.116,
+        "severity": 0.994
+      }
+    }
+  },
+  {
+    "user_id": "u_00086",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 10,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.5886,
+        "severity": 0.818
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.1493,
+        "severity": 0.937
+      }
+    }
+  },
+  {
+    "user_id": "u_00087",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0495,
+        "severity": 0.731
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.1214,
+        "severity": 0.7
+      }
+    }
+  },
+  {
+    "user_id": "u_00088",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0713,
+        "severity": 0.756
+      }
+    }
+  },
+  {
+    "user_id": "u_00089",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.2616,
+        "severity": 0.802
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0862,
+        "severity": 0.979
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0695,
+        "severity": 0.715
+      }
+    }
+  },
+  {
+    "user_id": "u_00090",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.1554,
+        "severity": 0.754
+      }
+    }
+  },
+  {
+    "user_id": "u_00091",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 10,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.073,
+        "severity": 0.972
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.2159,
+        "severity": 0.894
+      }
+    }
+  },
+  {
+    "user_id": "u_00092",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.8018,
+        "severity": 0.399
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0378,
+        "severity": 0.386
+      }
+    }
+  },
+  {
+    "user_id": "u_00093",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 1.2318,
+        "severity": 0.926
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0527,
+        "severity": 0.732
+      }
+    }
+  },
+  {
+    "user_id": "u_00094",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00095",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.1163,
+        "severity": 0.718
+      }
+    }
+  },
+  {
+    "user_id": "u_00096",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.2067,
+        "severity": 0.857
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.1694,
+        "severity": 0.894
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0692,
+        "severity": 0.844
+      }
+    }
+  },
+  {
+    "user_id": "u_00097",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 1.3192,
+        "severity": 0.82
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 0.0559,
+        "severity": 0.778
+      }
+    }
+  },
+  {
+    "user_id": "u_00098",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00099",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.2122,
+        "severity": 0.973
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 3,
+        "target_value": 0.0701,
+        "severity": 0.806
+      },
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.0468,
+        "severity": 0.712
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.1753,
+        "severity": 0.763
+      }
+    }
+  },
+  {
+    "user_id": "u_00100",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 2,
+        "target_value": 0.0563,
+        "severity": 0.773
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.148,
+        "severity": 0.83
+      }
+    }
+  },
+  {
+    "user_id": "u_00101",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0614,
+        "severity": 0.731
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.2299,
+        "severity": 0.763
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.5069,
+        "severity": 0.937
+      }
+    }
+  },
+  {
+    "user_id": "u_00102",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 1,
+        "target_value": 1.545,
+        "severity": 0.798
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 0.0875,
+        "severity": 0.858
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.107,
+        "severity": 0.825
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.5376,
+        "severity": 0.893
+      }
+    }
+  },
+  {
+    "user_id": "u_00103",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0555,
+        "severity": 0.838
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.1972,
+        "severity": 0.796
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.4089,
+        "severity": 0.988
+      }
+    }
+  },
+  {
+    "user_id": "u_00104",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00105",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 0.087,
+        "severity": 0.793
+      }
+    }
+  },
+  {
+    "user_id": "u_00106",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00107",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 1,
+        "target_value": 0.4894,
+        "severity": 0.997
+      }
+    }
+  },
+  {
+    "user_id": "u_00109",
+    "group": "control_weak",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 2.3891,
+        "severity": 0.34
+      }
+    }
+  },
+  {
+    "user_id": "u_00110",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.078,
+        "severity": 0.86
+      }
+    }
+  },
+  {
+    "user_id": "u_00111",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 10,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.0533,
+        "severity": 0.848
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.2327,
+        "severity": 0.78
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 4,
+        "target_value": 0.094,
+        "severity": 0.905
+      }
+    }
+  },
+  {
+    "user_id": "u_00112",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": true,
+    "default_month": 8,
+    "active_signals": {
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.1698,
+        "severity": 0.997
+      }
+    }
+  },
+  {
+    "user_id": "u_00113",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0826,
+        "severity": 0.855
+      }
+    }
+  },
+  {
+    "user_id": "u_00114",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.068,
+        "severity": 0.831
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.6313,
+        "severity": 0.807
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.169,
+        "severity": 0.777
+      }
+    }
+  },
+  {
+    "user_id": "u_00115",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 3,
+        "target_value": 0.0499,
+        "severity": 0.705
+      },
+      "external_delinquency": {
+        "stream": "tradeline",
+        "start_month": 1,
+        "target_value": 0.2088,
+        "severity": 0.788
+      },
+      "risky_merchant_ratio": {
+        "stream": "transaction",
+        "start_month": 3,
+        "target_value": 0.1057,
+        "severity": 0.888
+      }
+    }
+  },
+  {
+    "user_id": "u_00116",
+    "group": "single",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "external_high_utilization": {
+        "stream": "tradeline",
+        "start_month": 4,
+        "target_value": 0.094,
+        "severity": 0.987
+      }
+    }
+  },
+  {
+    "user_id": "u_00117",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00118",
+    "group": "random",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 2,
+        "target_value": 1.5996,
+        "severity": 0.804
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.5475,
+        "severity": 0.832
+      }
+    }
+  },
+  {
+    "user_id": "u_00119",
+    "group": "control_zero",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {}
+  },
+  {
+    "user_id": "u_00120",
+    "group": "multi",
+    "T_obs": 6,
+    "default_label": false,
+    "default_month": null,
+    "active_signals": {
+      "min_due_only": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 1.5501,
+        "severity": 0.78
+      },
+      "balance_parker_accel": {
+        "stream": "payment",
+        "start_month": 4,
+        "target_value": 0.0752,
+        "severity": 0.886
+      },
+      "spending_activity_decline": {
+        "stream": "transaction",
+        "start_month": 2,
+        "target_value": 0.4481,
+        "severity": 0.935
+      }
+    }
+  }
+]
